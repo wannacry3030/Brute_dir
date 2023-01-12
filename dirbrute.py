@@ -13,7 +13,8 @@ def brute(url, wordlist):
                 print("{} -- {}".format(url_final, code))
         except KeyboardInterrupt:
             sys.exit(0)
-        except:
+        except Exception as error:
+            print(error)
             pass
              
             
