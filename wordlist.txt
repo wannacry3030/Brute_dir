@@ -1,0 +1,7 @@
+dashboard
+painel
+admin
+search
+busca
+noticias
+home
